@@ -6,5 +6,5 @@ app = Flask(__name__)
 def index():
     return render_template('Meteor.html')
 if_name_=="_main_":
-    app.run
+    app.run()
 
